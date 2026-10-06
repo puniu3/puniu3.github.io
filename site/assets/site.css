@@ -38,7 +38,6 @@ a:focus-visible { outline: 2px solid #6e5530; outline-offset: 6px; }
 .group li { border-bottom: 1px solid #d8d6ce; }
 .group a { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 58px; font-size: 19px; letter-spacing: -.015em; }
 .group a span { color: #77786c; font-size: 17px; }
-.group a small { display: block; margin-top: 4px; color: #616257; font-size: 13px; letter-spacing: 0; }
 
 @media (hover: hover) and (pointer: fine) {
   .project-link:hover h2, .utility:hover, .code:hover, .more-nav a:hover, .group a:hover { color: #715535; }
