@@ -3,55 +3,44 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Selected games and interactive projects by puniu3.">
+  <meta name="description" content="Games, interactive experiments, and board games by puniu3.">
   <meta name="theme-color" content="#efede7">
-  <title>puniu3 — Selected projects</title>
+  <title>puniu3 — Games & projects</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/site.css">
+  <link rel="stylesheet" href="assets/gallery.css">
 </head>
 <body>
   <a class="skip-link" href="#projects">Skip to projects</a>
   <div class="shell">
     <header class="header">
-      <h1 class="identity">puniu3</h1>
-      <a class="utility" href="https://github.com/puniu3">GitHub <span aria-hidden="true">↗</span></a>
+      <h1>puniu3</h1>
+      <nav aria-label="Projects"><a href="#digital">Digital</a><a href="#board-games">Board games</a><a href="https://github.com/puniu3">GitHub ↗</a></nav>
     </header>
-    <main id="projects" class="projects" aria-label="Selected projects">
-      <article class="project">
-        <a class="project-link" href="https://puniu3.github.io/nc2000-engine/">
-          <img src="assets/nc2000.webp" alt="Pokémon battle with team status and move selection." width="1440" height="960" fetchpriority="high">
-          <h2>NC2000</h2>
-        </a>
-        <a class="code" href="https://github.com/puniu3/nc2000-engine" aria-label="NC2000 source code">Code <span aria-hidden="true">↗</span></a>
-        <p>Pokémon battle engine &amp; AI</p>
-      </article>
-      <article class="project">
-        <a class="project-link" href="https://puniu3.github.io/oikoumene/">
-          <img src="assets/oikoumene.webp" alt="Oikoumene's hexagonal world map with cities, borders, and an empire's economy." width="1440" height="960">
-          <h2>Oikoumene</h2>
-        </a>
-        <p>Original 4X strategy game</p>
-      </article>
-      <article class="project">
-        <a class="project-link" href="https://puniu3.github.io/flyer/">
-          <img src="assets/flyer.webp" alt="Flyer Dungeon's tabletop with five dice and wooden markers on ability boards." width="1440" height="960" loading="lazy">
-          <h2>Flyer Dungeon</h2>
-        </a>
-        <a class="code" href="https://github.com/puniu3/flyer" aria-label="Flyer Dungeon source code">Code <span aria-hidden="true">↗</span></a>
-        <p>Original solo board game</p>
-      </article>
-      <article class="project">
-        <a class="project-link" href="https://puniu3.github.io/mine/">
-          <img src="assets/pictoco.webp" alt="A playable pictoco landscape made from colorful blocks." width="1440" height="960" loading="lazy">
-          <h2>pictoco</h2>
-        </a>
-        <a class="code" href="https://github.com/puniu3/mine" aria-label="pictoco source code">Code <span aria-hidden="true">↗</span></a>
-        <p>A sandbox world saved as an image</p>
-      </article>
-    </main>
-    <nav class="more-nav" aria-label="More projects">
-      <a href="more/">More projects <span class="count">(10)</span> <span aria-hidden="true">→</span></a>
-    </nav>
-  </div>
-</body>
-</html>
+    <main id="projects">
+      <section class="section pinned" aria-labelledby="pinned-title">
+        <h2 id="pinned-title">Pinned</h2>
+        <div class="grid pinned-grid">
+
+<article class="card has-code"><a class="card-link" href="https://puniu3.github.io/nc2000-engine/"><div class="visual"><img src="assets/nc2000.webp" alt="NC2000 game screen" width="900" height="600" fetchpriority="high"></div><h3>NC2000<span aria-hidden="true">↗</span></h3></a><a class="code" href="https://github.com/puniu3/nc2000-engine" aria-label="NC2000 source code">Code <span aria-hidden="true">↗</span></a><p>Pokémon battle engine &amp; AI</p></article>
+<article class="card"><a class="card-link" href="https://puniu3.github.io/oikoumene/"><div class="visual"><img src="assets/oikoumene.webp" alt="Oikoumene game screen" width="1440" height="960" loading="lazy"></div><h3>Oikoumene<span aria-hidden="true">↗</span></h3></a><p>Original 4X strategy game</p></article>
+<article class="card has-code"><a class="card-link" href="https://puniu3.github.io/flyer/"><div class="visual"><img src="assets/flyer.webp" alt="Flyer Dungeon game screen" width="1440" height="960" loading="lazy"></div><h3>Flyer Dungeon<span aria-hidden="true">↗</span></h3></a><a class="code" href="https://github.com/puniu3/flyer" aria-label="Flyer Dungeon source code">Code <span aria-hidden="true">↗</span></a><p>Original solo board game</p></article>
+<article class="card has-code"><a class="card-link" href="https://puniu3.github.io/mine/"><div class="visual"><img src="assets/pictoco.webp" alt="pictoco game screen" width="1440" height="960" loading="lazy"></div><h3>pictoco<span aria-hidden="true">↗</span></h3></a><a class="code" href="https://github.com/puniu3/mine" aria-label="pictoco source code">Code <span aria-hidden="true">↗</span></a><p>A sandbox world saved as an image</p></article>
+</div></section><section id="digital" class="section" aria-labelledby="digital-title"><div class="section-heading"><h2 id="digital-title">Digital</h2><p>Games & experiments</p></div><div class="grid digital-grid">
+<article class="card"><a class="card-link" href="https://puniu3.github.io/jade-play/"><div class="visual"><img src="assets/jade-play.webp" alt="Jade Merchants game screen" width="1200" height="800" loading="lazy"></div><h3>Jade Merchants<span aria-hidden="true">↗</span></h3></a></article>
+<article class="card"><a class="card-link" href="https://puniu3.github.io/nmf-web/"><div class="visual"><img src="assets/nmf-web.webp" alt="Not My Fault! game screen" width="1200" height="800" loading="lazy"></div><h3>Not My Fault!<span aria-hidden="true">↗</span></h3></a></article>
+<article class="card"><a class="card-link" href="https://puniu3.github.io/ds/"><div class="visual"><img src="assets/ds.webp" alt="Dragonslayer game screen" width="1200" height="800" loading="lazy"></div><h3>Dragonslayer<span aria-hidden="true">↗</span></h3></a></article>
+<article class="card"><a class="card-link" href="https://puniu3.github.io/homobi/"><div class="visual"><img src="assets/homobi.webp" alt="Celestial Guardian game screen" width="1200" height="800" loading="lazy"></div><h3>Celestial Guardian<span aria-hidden="true">↗</span></h3></a></article>
+<article class="card"><a class="card-link" href="https://puniu3.github.io/sakura-danmaku/"><div class="visual"><img src="assets/sakura-danmaku.webp" alt="Sakura Danmaku game screen" width="1200" height="800" loading="lazy"></div><h3>Sakura Danmaku<span aria-hidden="true">↗</span></h3></a></article>
+<article class="card"><a class="card-link" href="https://puniu3.github.io/water-court-field/"><div class="visual"><img src="assets/water-court-field.webp" alt="Water Court game screen" width="1200" height="800" loading="lazy"></div><h3>Water Court<span aria-hidden="true">↗</span></h3></a></article>
+<article class="card"><a class="card-link" href="https://puniu3.github.io/hotarumi/"><div class="visual"><img src="assets/hotarumi.webp" alt="HOTARUMI game screen" width="1200" height="800" loading="lazy"></div><h3>HOTARUMI<span aria-hidden="true">↗</span></h3></a></article>
+<article class="card"><a class="card-link" href="https://puniu3.github.io/spot-the-ai/"><div class="visual"><img src="assets/spot-the-ai.webp" alt="Spot the AI game screen" width="1200" height="800" loading="lazy"></div><h3>Spot the AI<span aria-hidden="true">↗</span></h3></a></article>
+<article class="card"><a class="card-link" href="https://puniu3.github.io/sp/"><div class="visual"><img src="assets/sp.webp" alt="Splendor game screen" width="1200" height="800" loading="lazy"></div><h3>Splendor<span aria-hidden="true">↗</span></h3></a></article>
+</div></section><section id="board-games" class="section" aria-labelledby="board-title"><div class="section-heading"><h2 id="board-title">Board games</h2><p>On BoardGameGeek ↗</p></div><h3 class="series-title">National Economy series</h3><div class="grid board-grid">
+<article class="card box-card"><a class="card-link" href="https://boardgamegeek.com/boardgame/219122/national-economy"><div class="visual"><img src="assets/national-economy.webp" alt="National Economy box artwork" width="839" height="839" loading="lazy"></div><h3>National Economy<span aria-hidden="true">↗</span></h3></a><p>2015</p></article>
+<article class="card box-card"><a class="card-link" href="https://boardgamegeek.com/boardgame/229527/national-economy-mecenat"><div class="visual"><img src="assets/mecenat.webp" alt="Mecenat box artwork" width="900" height="675" loading="lazy"></div><h3>Mecenat<span aria-hidden="true">↗</span></h3></a><p>2017</p></article>
+<article class="card box-card"><a class="card-link" href="https://boardgamegeek.com/boardgame/294651/national-economy-glory"><div class="visual"><img src="assets/glory.webp" alt="Glory box artwork" width="600" height="600" loading="lazy"></div><h3>Glory<span aria-hidden="true">↗</span></h3></a><p>2019</p></article>
+<article class="card box-card"><a class="card-link" href="https://boardgamegeek.com/boardgame/449831/national-economy"><div class="visual"><img src="assets/national-economy-remake.webp" alt="National Economy box artwork" width="554" height="554" loading="lazy"></div><h3>National Economy<span aria-hidden="true">↗</span></h3></a><p>2025 · Remake</p></article>
+</div><div class="grid board-grid standalone">
+<article class="card box-card"><a class="card-link" href="https://boardgamegeek.com/boardgame/297555/fei-cui-noshang-ren-jade-merchant"><div class="visual"><img src="assets/jade-box.webp" alt="Jade Merchants box artwork" width="616" height="900" loading="lazy"></div><h3>Jade Merchants<span aria-hidden="true">↗</span></h3></a><p>2019</p></article>
+<article class="card box-card"><a class="card-link" href="https://boardgamegeek.com/boardgame/244882/not-my-fault"><div class="visual"><img src="assets/nmf-box.webp" alt="Not My Fault! box artwork" width="650" height="900" loading="lazy"></div><h3>Not My Fault!<span aria-hidden="true">↗</span></h3></a><p>2017</p></article>
+</div></section></main><footer><a href="#">Back to top ↑</a></footer></div></body></html>
