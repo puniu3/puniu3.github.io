@@ -15,8 +15,7 @@ a:focus-visible { outline: 2px solid #715535; outline-offset: 6px; }
 .shell { width: min(1168px, calc(100% - 96px)); margin-inline: auto; }
 .header { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 128px; }
 .header h1 { margin: 0; font-size: 25px; font-weight: 650; letter-spacing: -.055em; }
-.header nav { display: flex; align-items: center; gap: 28px; }
-.header nav a { display: flex; align-items: center; min-height: 44px; font-size: 14px; }
+.github-link { display: flex; align-items: center; min-height: 44px; font-size: 14px; }
 .section { scroll-margin-top: 28px; }
 .section + .section { margin-top: 72px; padding-top: 32px; border-top: 1px solid #d4d1c8; }
 .section h2 { margin: 0; font-size: 15px; font-weight: 550; }
@@ -41,10 +40,9 @@ a:focus-visible { outline: 2px solid #715535; outline-offset: 6px; }
 .pinned .card p { font-size: 15px; }
 .code { grid-column: 2; grid-row: 1; align-self: end; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; margin-bottom: -8px; font-size: 13px; }
 .code span { color: #77786c; }
-.series-title { margin: 4px 0 20px; color: #616257; font-size: 15px; font-weight: 500; }
 .box-card .visual { aspect-ratio: 1; padding: 20px; background: #e5e1d7; }
 .box-card img { object-fit: contain; }
-.standalone { margin-top: 36px; }
+.box-card .cover-crop { object-fit: cover; }
 footer { display: flex; justify-content: flex-end; padding: 56px 0 36px; }
 footer a { display: flex; align-items: center; min-height: 44px; color: #616257; font-size: 13px; }
 .skip-link { position: absolute; top: 12px; left: 12px; padding: 12px; background: #efede7; transform: translateY(-180%); z-index: 1; }
@@ -65,8 +63,7 @@ footer a { display: flex; align-items: center; min-height: 44px; color: #616257;
 @media (max-width: 600px) {
   .shell { width: calc(100% - 36px); }
   .header { min-height: 100px; gap: 14px; }
-  .header nav { gap: 14px; }
-  .header nav a { font-size: 12px; }
+  .github-link { font-size: 12px; }
   .header h1 { font-size: 22px; }
   .pinned-grid { grid-template-columns: 1fr; gap: 32px; }
   .digital-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
