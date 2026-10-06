@@ -1,6 +1,6 @@
 # puniu3 portfolio
 
-Two static pages: four selected projects at `/`, and eight more at `/more/`.
+Two static pages: four selected projects at `/`, and nine more at `/more/`.
 
 Serve `site/` with any static HTTP server. All local links are relative, so the same files work at a domain root or under a GitHub Pages project path. No build step, dependencies, JavaScript, analytics, or external fonts are required.
 
