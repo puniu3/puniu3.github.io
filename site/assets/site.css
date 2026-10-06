@@ -38,6 +38,12 @@ a:focus-visible { outline: 2px solid #6e5530; outline-offset: 6px; }
 .group li { border-bottom: 1px solid #d8d6ce; }
 .group a { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-height: 58px; font-size: 19px; letter-spacing: -.015em; }
 .group a span { color: #77786c; font-size: 17px; }
+.series { padding: 16px 0 8px; }
+.series h3 { margin: 0 0 6px; font-size: 19px; font-weight: 500; letter-spacing: -.015em; }
+.group .series a { min-height: 44px; font-size: 16px; line-height: 1.4; }
+.project-row { display: flex; align-items: center; gap: 24px; }
+.project-row > a:first-child { flex: 1; min-width: 0; }
+.group .bgg-link { flex: none; gap: 8px; font-size: 14px; }
 
 @media (hover: hover) and (pointer: fine) {
   .project-link:hover h2, .utility:hover, .code:hover, .more-nav a:hover, .group a:hover { color: #715535; }

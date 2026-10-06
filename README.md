@@ -1,6 +1,6 @@
 # puniu3 portfolio
 
-Two static pages: four selected projects at `/`, and nine more at `/more/`.
+Two static pages: four selected projects at `/`, and ten more at `/more/`, counting the National Economy series as one project.
 
 Serve `site/` with any static HTTP server. All local links are relative, so the same files work at a domain root or under a GitHub Pages project path. No build step, dependencies, JavaScript, analytics, or external fonts are required.
 
