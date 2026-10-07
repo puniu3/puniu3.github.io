@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jade Stone Merchants: a working Board Game Arena adaptation by puniu3. Watch the Studio demo and play the standalone browser edition.">
+  <meta name="theme-color" content="#efede7">
+  <title>Jade Stone Merchants — BGA development</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/site.css">
+  <link rel="stylesheet" href="jade.css">
+</head>
+<body>
+  <a class="skip-link" href="#demo">Skip to demo</a>
+  <div class="shell">
+    <header class="header">
+      <a class="identity" href="../">puniu3</a>
+      <a class="utility" href="../">Selected projects <span aria-hidden="true">↗</span></a>
+    </header>
+    <main id="demo">
+      <p class="eyebrow">BOARD GAME ARENA DEVELOPMENT</p>
+      <h1>Jade Stone Merchants</h1>
+      <p class="lead">A published auction card game, adapted for Board Game Arena.</p>
+      <p class="intro">Preserving the original rules and artwork, with a readable shared board, server-validated actions, automatic scoring and card movement that makes each turn easy to follow.</p>
+      <p class="status">Working implementation in BGA Studio. Private-alpha deployment has been requested.</p>
+      <nav class="actions" aria-label="Explore the adaptation">
+        <a class="primary" href="#studio-video">Watch the BGA demo</a>
+        <a href="https://puniu3.github.io/jade-play/?lang=en">Play the browser edition <span aria-hidden="true">↗</span></a>
+      </nav>
+      <figure class="hero">
+        <img src="media/studio-table.png" width="1194" height="834" alt="Jade Stone Merchants running inside BGA Studio, showing the auction cards, player collections and native BGA player panels.">
+        <figcaption>The BGA Studio implementation, with the compact board layout.</figcaption>
+      </figure>
+      <section id="studio-video">
+        <h2>See it running on BGA</h2>
+        <p>Recorded from an actual Studio game replay. This two-player game was tested and recorded on 7 October 2026. The clip shows bidding, card movement and the transition between rounds.</p>
+        <video controls playsinline preload="metadata" poster="media/replay-poster.png" aria-label="BGA Studio gameplay recording">
+          <source src="media/studio-replay.mp4" type="video/mp4">
+          <a href="media/studio-replay.mp4">Download the gameplay recording</a>
+        </video>
+        <p class="download"><a href="media/studio-replay.mp4" download="jade-stone-merchants-bga.mp4">Download the BGA gameplay clip (MP4)</a></p>
+      </section>
+      <section class="details" aria-label="Development and demo details">
+        <div>
+          <h2>What the adaptation includes</h2>
+          <ul>
+            <li>A PHP rules engine with server-side legal-action checks.</li>
+            <li>Two to five players, automatic scoring and spectator support.</li>
+            <li>Reload recovery, BGA replay controls and native sound settings.</li>
+            <li>A responsive board built around the original card artwork.</li>
+          </ul>
+          <p>Completed Studio tests cover two to five players. The PHP and TypeScript rules engines were compared across 96 complete games.</p>
+        </div>
+        <div>
+          <h2>Try the game in your browser</h2>
+          <p>The <a href="https://puniu3.github.io/jade-play/?lang=en">standalone browser edition</a> is available now, with a computer opponent and no account required. It is a separate edition from the BGA implementation shown above.</p>
+          <p>BGA player invitations will become available after the game is deployed to private alpha.</p>
+          <h2>About the game</h2>
+          <p>Two to five players · About 20 minutes<br>Published by Curiosity Inc. / 株式会社キュリオシティ, 2018</p>
+          <p class="credits">Game design: 西村裕<br>Artwork: 長谷川登鯉 and Mogwai<br>Digital adaptation: puniu3 / Curiosity Inc.</p>
+        </div>
+      </section>
+    </main>
+    <footer>Game artwork and footage © Curiosity Inc. All rights reserved.</footer>
+  </div>
+</body>
+</html>
