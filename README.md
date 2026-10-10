@@ -2,6 +2,8 @@
 
 One image gallery at `/`: four pinned projects, nine more digital projects, and six board game editions in newest-first order. The old `/more/` URL redirects to the digital section.
 
+The NC2000 card links to its English overview and technology notes at `/nc2000/`. Its image and title open the playable bot.
+
 The `/jade/` case study presents the BGA Studio adaptation of Jade Stone Merchants, a downloadable gameplay recording, and the separate public browser edition. The BGA implementation is awaiting private-alpha deployment.
 
 Serve `site/` with any static HTTP server. All local links are relative, so the same files work at a domain root or under a GitHub Pages project path. No build step, dependencies, JavaScript, analytics, or external fonts are required.

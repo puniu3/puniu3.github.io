@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="NC2000: a Pokémon Gen 2 battle bot with a Rust rules engine, Monte Carlo tree search and local solvers.">
+  <meta name="theme-color" content="#efede7">
+  <title>NC2000 — About</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/gallery.css">
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to about</a>
+  <div class="shell about-shell">
+    <header class="header">
+      <a class="identity" href="../">puniu3</a>
+      <a class="github-link" href="../">Portfolio</a>
+    </header>
+    <main id="about" class="about-content">
+      <h1>NC2000</h1>
+      <section aria-labelledby="overview-title">
+        <h2 id="overview-title">Overview</h2>
+        <p>A Pokémon Gen 2 battle bot for Nintendo Cup 2000. It plays on par with experienced players and takes approximately three seconds per move on local hardware.</p>
+        <nav class="actions" aria-label="Project links">
+          <a href="https://puniu3.github.io/nc2000-engine/">Play <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/puniu3/nc2000-engine">Code <span aria-hidden="true">↗</span></a>
+        </nav>
+      </section>
+      <section aria-labelledby="technology-title">
+        <h2 id="technology-title">Technology</h2>
+        <ul>
+          <li><strong>Rust rules engine.</strong> Reimplemented from Pokémon Showdown, with battle state, random-number state and logs checked against the reference implementation.</li>
+          <li><strong>Search-based play.</strong> Monte Carlo tree search evaluates actions through simulated continuations. Unrevealed opposing moves and items are sampled from candidates consistent with observations.</li>
+          <li><strong>Local solvers.</strong> Bounded analysis of small positions, supplemented by checks that reject provably ineffective actions.</li>
+          <li><strong>No neural network in the deployed bot.</strong> Several approaches were tested; none established a playing-strength improvement over the search baseline.</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

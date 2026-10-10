@@ -40,6 +40,10 @@ a:focus-visible { outline: 2px solid #715535; outline-offset: 6px; }
 .pinned .card p { font-size: 15px; }
 .code { grid-column: 2; grid-row: 1; align-self: end; display: inline-flex; align-items: center; gap: 8px; min-height: 44px; margin-bottom: -8px; font-size: 13px; }
 .code span { color: #77786c; }
+.has-about h3 { margin-right: 148px; }
+.card-actions { grid-column: 2; grid-row: 1; align-self: end; display: flex; gap: 20px; margin-bottom: -8px; font-size: 13px; }
+.card-actions a { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; }
+.card-actions span { color: #77786c; }
 .box-card .visual { aspect-ratio: 1; padding: 20px; background: #e5e1d7; }
 .box-card img { object-fit: contain; }
 .box-card .cover-crop { object-fit: cover; }
