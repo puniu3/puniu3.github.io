@@ -4,7 +4,7 @@ One image gallery at `/`: four pinned projects, nine more digital projects, and 
 
 The NC2000 card links to its English overview and technology notes at `/nc2000/`. Its image and title open the playable bot.
 
-The `/jade/` case study presents the BGA Studio adaptation of Jade Stone Merchants, a downloadable gameplay recording, and the separate public browser edition. The BGA implementation is awaiting private-alpha deployment.
+The Jade card's image and title open the playable standalone browser edition; its About link opens `/jade/`. That page explains the standalone and Board Game Arena editions, links to the public browser game, and presents the BGA adaptation, now deployed as an invitation-only private alpha. It uses original game artwork and identifies validation results as BGA Studio tests.
 
 Serve `site/` with any static HTTP server. All local links are relative, so the same files work at a domain root or under a GitHub Pages project path. No build step, dependencies, JavaScript, analytics, or external fonts are required.
 
